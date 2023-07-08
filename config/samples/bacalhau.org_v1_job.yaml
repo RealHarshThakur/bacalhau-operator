@@ -1,0 +1,11 @@
+apiVersion: bacalhau.org.bacalhau.org/v1
+kind: Job
+metadata:
+  name: job-sample
+  namespace: bacalhau
+spec:
+  entrypoint: 
+    - "echo"
+    - "hello"
+    - "world"
+  image: "alpine:latest"
