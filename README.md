@@ -2,6 +2,7 @@
 
  This project aims to use Kubernetes as controlplane with [Bacalhau](https://docs.bacalhau.org/) as the orchestrator. This is a POC and not meant for production use.
 
+Watch the [demo here](https://asciinema.org/a/pmzXUKHOdapidvGFNrFNQ9OiY)
 
 ### Prerequisites
 * Kubernetes cluster- although any Kubernetes cluster(with recent version) would work, the light weight option would be to use [KCP](https://github.com/kcp-dev/kcp) as KCP doesn't have any orchestration components.
